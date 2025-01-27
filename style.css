@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    background-color: blue;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0; /* ficar sempre no topo, sempre trabalham com o position */
+    left: 0; /* ficar sempre na esquerda */
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar-navigation .logo{
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.sidebar-navigation .logo img{
+    width: 80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0; /* em cima e embaixo - esquerda e direita */
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px; /* vale pro ícone também */
+    font-family: "DM Sans", sans-serif;
+}
